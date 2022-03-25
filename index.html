@@ -29,6 +29,7 @@
         }
 
         body{
+            height: 1000px;
             margin: 5px;
             background-color: white;
             width: 80%;
@@ -39,13 +40,21 @@
         .champions{
             width: 200px;
             height: 200px;
-            
+            display: block;
+            float: left;
         }
 
         .championsesq{
             width: 200px;
             height: 200px;
+            display: block;
+            float: right;
         }
+        #edcham{
+            font-weight: bold;
+            font: "Lobster";
+        }
+
         
 
     </style>
@@ -58,9 +67,9 @@
 
     <h1>MID LINE - League of Legends</h1>
     
-    <p><img class="champions" src="img/ahri.jpg" alt="ahri"></p>
     
-    <br>
+    <img class="champions" src="img/ahri.jpg" alt="ahri"><p id="edcham">Ahri</p>
+    
 
     <p><img class="championsesq" src="img/annie.jpg" alt="annie"></p>
 
