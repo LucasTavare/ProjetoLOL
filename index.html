@@ -6,6 +6,10 @@
 
     <style>
 
+        @font-face {
+            font-family: Lobster;
+            src: url(fontes/Lobster-Regular.ttf);
+        }
         *{
             box-sizing: border-box;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,12 +33,13 @@
         }
 
         body{
-            height: 1000px;
+            height: 1500px;
             margin: 5px;
             background-color: white;
             width: 80%;
             margin: 10px auto;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            border-radius: 5px;
         }
 
         .champions{
@@ -42,17 +47,48 @@
             height: 200px;
             display: block;
             float: left;
+            padding: 10px;
         }
 
-        .championsesq{
+        .championsdir{
             width: 200px;
             height: 200px;
             display: block;
             float: right;
+            padding: 10px;
         }
         #edcham{
             font-weight: bold;
-            font: "Lobster";
+            font-family: Lobster;
+            font-size: 25px;
+            padding: 0px 210px;
+        }
+        #edchamdir{
+            font-weight: bold;
+            font-family: Lobster;
+            font-size: 25px;
+            padding: 0px 1000px;
+        }
+        #pantheon{
+            font-weight: bold;
+            font-family: Lobster;
+            font-size: 25px;
+            padding: 0px 955px;
+        }
+        #edtxtdir{
+            font-size: 16px;
+            padding: 0px 30px;
+        }
+        li{
+            list-style-type:circle;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(67, 73, 73);
+            font-weight: bold;
         }
 
         
@@ -62,17 +98,63 @@
 
 </head>
 <body>
-
+     
     <img id="logo" src="img/logo.png" alt="Logo LOL">
 
-    <h1>MID LINE - League of Legends</h1>
+    <h1>MID LANE - League of Legends</h1>
     
     
     <img class="champions" src="img/ahri.jpg" alt="ahri"><p id="edcham">Ahri</p>
-    
+    <p id="edtxt">Com uma conexão inata com o poder latente de Runeterra, Ahri é uma vastaya
+       predatória, Ahri conserva um senso de empatia ao receber flashes de memória das
+       almas que ela consome.</p>
 
-    <p><img class="championsesq" src="img/annie.jpg" alt="annie"></p>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <p><img class="championsdir" src="img/annie.jpg" alt="annie"><p id="edchamdir">Annie</p>
+        <p id="edtxtdir">Perigosa, mas adoravelmente precoce, Annie é uma pequena maga com imenso
+        poder piromaníaco. Mesmo isolada nas sombras das montanhas ao norte de
+        Noxus, ela causa estranhamento com sua magia. Sua afinidade natural com o fogo já era evidente desde a
+        primeira infância, quando ela tinha explosões emocionais imprevisíveis.</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <img class="champions" src="img/anivia.jpg" alt="anivia"><p id="edcham">Anivia</p>
+    <p id="edtxt">Anivia é uma antiga semideusa freljordana que representa o ciclo 
+    eterno de vida, morte e renascimento, intrinsecamente associado à mudança das 
+    estações. Para aqueles que a veneram, ela é a alma elemental de Freljord, um 
+    símbolo de esperança e a catalisadora sagrada da transformação.</p>
+        
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p><img class="championsdir" src="img/pantheon.jpg" alt="pantheon"><p id="pantheon">Phanteon</p>
+        <p id="edtxtdir">Perigosa, mas adoravelmente precoce, Annie é uma pequena maga com imenso
+        poder piromaníaco. Mesmo isolada nas sombras das montanhas ao norte de
+        Noxus, ela causa estranhamento com sua magia. Sua afinidade natural com o fogo já era evidente desde a
+        primeira infância, quando ela tinha explosões emocionais imprevisíveis.</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <ul>
+        <li><a href="https://rankedboost.com/mid-lane-tier-list/" alt="Mid lane">Conheça a Tier List da MID Lane</a></li>
+        <li><a href="https://mktesports.com.br/blog/league-of-legends/o-que-e-mid-lol/">Conheça a MID Lane e como ela funciona</a></li>
+        <li><a href="https://www.espn.com.br/esports/artigo/_/id/7479120/worlds-os-5-midlaners-que-voce-vai-prestar-atencao-no-mundial-de-lol" alt="Mid lane">Conheça Otimos MId lanes pelo mundo</a></li>
+        <li><a href="https://www.leagueoflegends.com/pt-br/">Baixe League of Legends</a></li>
+    </ul>
 
 
 
